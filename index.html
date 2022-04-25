@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timenow Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="py-8 font-[Inter]">
+    <header class="header max-w-[90%] mx-auto mb-16">
+      <nav class="nav-bar flex justify-between relative mb-10">
+        <img src="Assets/Logo.svg" alt="logo" />
+        <div class="links hidden"></div>
+        <img
+          src="Assets/Hamburger Menu.svg"
+          alt="hamburger"
+          class="hamburger fixed right-6"
+        />
+      </nav>
+
+      <div class="about">
+        <div class="about-data">
+          <h1 class="heading text-[#1d1b67] font-black text-3xl mb-3">
+            Post when your audience is most active.
+          </h1>
+          <p class="primary-para text-[#666666] text-base mb-3">
+            With TimeNow, automaticallly schedule your posts on Twitter,
+            Linkedin, and Instagram to post when your followers are most active.
+          </p>
+
+          <div class="click-link flex items-center gap-16 mb-5">
+            <a href="#" class="schedule btn-primary text-base"
+              >Start Scheduling</a
+            >
+            <a href="#" class="text-[#1d1b67] font-black text-base"
+              >View Demo</a
+            >
+          </div>
+
+          <div class="alert flex items-start gap-4 mb-8">
+            <img src="Assets/Shield.svg" class="w-5" alt="" />
+            <p class="sell text-[#666666] text-lg">
+              TimeNow does not sell your data.
+              <a href="#" class="underline text-[#1d1b67] font-black"
+                >Learn more</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="usecase-image relative p-4 w-[100%] before:content-[''] before:w-[120%] before:absolute before:bg-[#47ccdf] before:h-[100%] before:-z-10 before:right-[-5%]"
+        >
+          <img
+            src="Assets/Mockup.png"
+            alt=""
+            class="usecase-img w-full mt-12"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="testimony flex flex-col max-w-[90%] mx-auto gap-y-6 mb-6">
+      <div class="testimony-left">
+        <h2 class="testimony-title text-3xl text-[#050256] font-black mb-6">
+          TimeNow is used by the most influential people.
+        </h2>
+
+        <div class="peoples flex flex-wrap gap-2">
+          <img src="Assets/UA1.png" class="w-12" alt="" />
+          <img src="Assets/UA2.png" class="w-12" alt="" />
+          <img src="Assets/UA3.png" class="w-12" alt="" />
+          <img src="Assets/UA4.png" class="w-12" alt="" />
+          <img src="Assets/UA5.png" class="w-12" alt="" />
+          <img src="Assets/UA8.png" class="w-12" alt="" />
+          <img src="Assets/UA6.png" class="w-12" alt="" />
+          <img src="Assets/UA7.png" class="w-12" alt="" />
+        </div>
+      </div>
+
+      <div class="testimony-right">
+        <p class="text-[#65778a] mb-6">
+          The most influential people on Facebook, Twitter, and Instagram are
+          using TweetNow to schedule posts when their followers are most active.
+        </p>
+
+        <p class="text-[#65778a]">
+          They generally recieve 23% more engagement than people who do not.
+        </p>
+      </div>
+    </section>
+
+    <section class="features mb-6 bg-[#cdf9ff] px-5 py-5">
+      <div class="feature mb-12">
+        <div class="feature-name">Unified Dashboard</div>
+        <h2 class="feature-title">Customizable dashboard for all platforms.</h2>
+        <p class="about-feature">
+          Use Twitter and Instagram but not Linkedin? You can customize your
+          dashboard to your liking. You can even schedule the same post to
+          individual platforms instead of all platforms.
+        </p>
+        <a href="#" class="btn-primary inline-block">Start Scheduling</a>
+      </div>
+
+      <div class="feature">
+        <div class="feature-name">Enhanced Analytics</div>
+        <h2 class="feature-title">Real-time data that tells you everything.</h2>
+        <p class="about-feature">
+          Get detailed reports of what's working and what isn't. Engagement
+          rates, impressions, views, and much more data is availale to you
+          through our in-depth dashboard tool.
+        </p>
+        <p class="demo">
+          <a href="#">View Live Demo</a>
+          <i class="fas fa-arrow-right"></i>
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer max-w-[90%] mx-auto">
+      <img src="Assets/Logo.svg" alt="logo" class="logo mb-6" />
+
+      <div class="columns flex flex-wrap gap-x-20 gap-y-4 mb-4">
+        <div class="column">
+          <h2 class="footer-title">Product</h2>
+          <div class="product footer-column">
+            <span>Homepage</span>
+            <span>Pricing</span>
+            <span>Features</span>
+          </div>
+        </div>
+
+        <div class="column">
+          <h2 class="footer-title">Help</h2>
+          <div class="help footer-column">
+            <span>Live Chat</span>
+            <span>Send Email</span>
+            <span>FAQ</span>
+          </div>
+        </div>
+
+        <div class="column">
+          <h2 class="footer-title">Company</h2>
+          <div class="product footer-column">
+            <span>About</span>
+            <span>Customers</span>
+            <span>Blog</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="try mb-2">
+        <h2 class="footer-title">Try TweetNow</h2>
+        <div class="try border-2 px-4 py-2 flex justify-between items-center">
+          <span>Email Address</span>
+          <a href="#" class="btn-primary">Start Scheduling</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
