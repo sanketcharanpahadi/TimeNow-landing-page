@@ -27,4 +27,24 @@
   .footer-column {
     @apply flex flex-col gap-1 text-[#65778a];
   }
+
+  .integration {
+    @apply flex gap-3 mb-3 text-[#65778a];
+  }
+
+  .price {
+    @apply border-2 p-8 mb-6;
+  }
+
+  .amount {
+    @apply text-3xl text-black font-black;
+  }
+
+  .plan {
+    @apply text-[#65778a] mb-3;
+  }
+
+  .btn-subscribe {
+    @apply block text-center mt-6;
+  }
 }
