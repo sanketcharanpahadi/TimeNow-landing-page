@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Inter:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply text-white bg-[#1d1b67] px-5 py-4 rounded-[5px] text-sm font-black inline-block;
+  }
+
+  .feature-name {
+    @apply text-[#496daf] font-black mb-2;
+  }
+
+  .feature-title {
+    @apply text-3xl font-black text-[#003c48] mb-2;
+  }
+
+  .about-feature {
+    @apply text-[#65778a] text-[16.5px] mb-4;
+  }
+
+  .footer-title {
+    @apply font-black text-black text-lg mb-2;
+  }
+
+  .footer-column {
+    @apply flex flex-col gap-1 text-[#65778a];
+  }
+}
